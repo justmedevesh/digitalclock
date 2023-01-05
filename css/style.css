@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,500&display=swap');
+
+body {
+    background-image: url('../image/a.jpg');
+    height: 100vh;
+    background-size: cover;
+}
+
+.clock {
+    position: relative;
+    top: 50%;
+    left: 80%;
+    transform: translateX(-50%) translateY(-50%);
+    color:  #660066;
+    font-size: 40px;
+    font-family: unset;
+    letter-spacing: 8px;
+}
+
+.p h2 {
+    position: relative;
+    top: 190px;
+    left: 480px;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+}
